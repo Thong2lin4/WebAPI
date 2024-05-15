@@ -1,0 +1,292 @@
+[
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.AuthorsController",
+    "Method": "AddAuthors",
+    "RelativePath": "api/Authors/add-author",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAuthorRequestDTO",
+        "Type": "LAB_LTW_API.Models.DTO.AddAuthorRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.AuthorsController",
+    "Method": "DeleteBookById",
+    "RelativePath": "api/Authors/delete-author-by-id/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.AuthorsController",
+    "Method": "GetAllAuthor",
+    "RelativePath": "api/Authors/get-all-author",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.AuthorsController",
+    "Method": "GetAuthorById",
+    "RelativePath": "api/Authors/get-author-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.AuthorsController",
+    "Method": "UpdateBookById",
+    "RelativePath": "api/Authors/update-author-by-id/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "authorDTO",
+        "Type": "LAB_LTW_API.Models.DTO.AuthorNoIdDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.BooksController",
+    "Method": "Add",
+    "RelativePath": "api/Books/add-book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addBookRequestDTO",
+        "Type": "LAB_LTW_API.Models.DTO.AddBookRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.BooksController",
+    "Method": "AddBook",
+    "RelativePath": "api/Books/and-book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addBookRequestDTO",
+        "Type": "LAB_LTW_API.Models.DTO.AddBookRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.BooksController",
+    "Method": "DeleteBookById",
+    "RelativePath": "api/Books/delete-book-by-id/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.BooksController",
+    "Method": "GetAll",
+    "RelativePath": "api/Books/get-all-books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filterOn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filterQuery",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isAscending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.BooksController",
+    "Method": "GetBookById",
+    "RelativePath": "api/Books/get-book-by-id/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.BooksController",
+    "Method": "UpdateBookById",
+    "RelativePath": "api/Books/update-book-by-id/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "bookDTO",
+        "Type": "LAB_LTW_API.Models.DTO.AddBookRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.PublishersController",
+    "Method": "AddPublisher",
+    "RelativePath": "api/Publishers/add-publisher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addPublisherRequestDTO",
+        "Type": "LAB_LTW_API.Models.DTO.AddPublishers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.PublishersController",
+    "Method": "DeletePublisherById",
+    "RelativePath": "api/Publishers/delete-publisher-by-id/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.PublishersController",
+    "Method": "GetAllPublisher",
+    "RelativePath": "api/Publishers/get-all-publisher",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.PublishersController",
+    "Method": "GetPublisherById",
+    "RelativePath": "api/Publishers/get-publisher-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.PublishersController",
+    "Method": "UpdatePublisherById",
+    "RelativePath": "api/Publishers/update-publisher-by-id/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "publisherDTO",
+        "Type": "LAB_LTW_API.Models.DTO.PublishersDTO\u002BPublisherNoIdDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB_LTW_API.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDTO",
+        "Type": "LAB_LTW_API.Models.DTO.RegisterRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
